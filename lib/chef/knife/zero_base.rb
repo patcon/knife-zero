@@ -1,4 +1,5 @@
 require 'chef'
+require 'knife-zero/i18n'
 
 class Chef
   class Knife
@@ -14,7 +15,8 @@ class Chef
           option :ssh_user,
             :short => "-x USERNAME",
             :long => "--ssh-user USERNAME",
-            :description => "The ssh username",
+            # :description => "The ssh username",
+            :description => (I18n.t :zero_base_desc_ssh_user),
             :default => "root"
 
           option :ssh_password,

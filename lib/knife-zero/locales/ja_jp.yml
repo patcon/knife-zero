@@ -1,0 +1,3 @@
+---
+ja_jp:
+  zero_base_desc_ssh_user: リモートサーバのSSHログインユーザを指定します。
