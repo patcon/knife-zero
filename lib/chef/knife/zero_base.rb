@@ -55,7 +55,8 @@ class Chef
           option :use_sudo,
             :long => "--sudo",
             :description => "execute the chef-client via sudo",
-            :boolean => true
+            :boolean => true,
+            :default => true
 
           option :use_sudo_password,
             :long => "--use-sudo-password",
